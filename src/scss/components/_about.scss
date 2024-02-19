@@ -1,0 +1,39 @@
+.about {
+  background-color: #ffffff;
+
+  &__container {
+    padding: 93px 0 94px;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 605px;
+
+    .heading {
+      width: 463px;
+      color: #499a18;
+      font-family: Inika, serif;
+      font-family: Inika;
+      font-size: 40px;
+      line-height: 52px;
+
+      .highlight {
+        color: #e06733;
+      }
+    }
+  }
+
+  .img {
+    height: 479px;
+    width: 464px;
+    background-image: url("../assets/img/houseplant.png");
+  }
+}
