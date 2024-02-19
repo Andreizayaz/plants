@@ -19,15 +19,19 @@ body {
 
 a {
   color: inherit;
+  font: inherit;
   text-decoration: none;
   transition: all 0.4s;
   cursor: pointer;
 }
 
 button {
+  font: inherit;
   border: none;
   outline: none;
   background-color: transparent;
+  transition: all 0.4s;
+  cursor: pointer;
 }
 
 li {
