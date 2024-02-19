@@ -1,0 +1,56 @@
+/* Inika */
+
+@font-face {
+  src: url("../assets/fonts/Inika/woff2/Inika-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Inika/ttf/Inika-Regular.ttf") format("ttf");
+  font-family: Inika;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../assets/fonts/Inika/woff2/Inika-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Inika/ttf/Inika-Bold.ttf") format("ttf");
+  font-family: Inika;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Inter */
+
+@font-face {
+  src: url("../assets/fonts/Inter/woff2/Inter-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Inter/ttf/Inter-Bold.ttf") format("ttf");
+  font-family: Inter;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("../assets/fonts/Inter/woff2/Inter-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/Inter/ttf/Inter-SemiBold.ttf") format("ttf");
+  font-family: Inter;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url("../assets/fonts/Inter/woff2/Inter-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Inter/ttf/Inter-Regular.ttf") format("ttf");
+  font-family: Inter;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../assets/fonts/Inter/woff2/Inter-Light.woff2") format("woff2"),
+    url("../assets/fonts/Inter/ttf/Inter-Light.ttf") format("ttf");
+  font-family: Inter;
+  font-weight: 300;
+}
+
+/* Roboto */
+
+@font-face {
+  src: url("../assets/fonts/Roboto/woff2/Roboto-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/Roboto/ttf/Roboto-Regular.ttf") format("ttf");
+  font-family: Roboto;
+  font-weight: 400;
+}

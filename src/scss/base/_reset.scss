@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: #636060;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+button {
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,41 @@
+.header {
+  color: #010201;
+  font-family: Inika, serif;
+  font-size: 16px;
+  line-height: 50px;
+
+  background-color: #edf2ec;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+  }
+
+  .logo {
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 46px;
+
+    &__link {
+      flex: 1 1 auto;
+
+      &_active {
+        color: #e06733;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
