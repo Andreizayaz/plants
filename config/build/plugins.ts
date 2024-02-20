@@ -3,7 +3,7 @@ import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { PluginType } from "../types";
-import { Configuration } from "webpack";
+import { Configuration, ProgressPlugin } from "webpack";
 
 export const getPlugins = (options: PluginType) => {
   const { mode, html, favicon } = options;
@@ -25,6 +25,10 @@ export const getPlugins = (options: PluginType) => {
         chunkFilename: "css/[name].[contenthash:8].css",
       })
     );
+  }
+
+  if (isDev) {
+    plugins.push(new ProgressPlugin())
   }
 
   return plugins;
